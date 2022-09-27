@@ -45,7 +45,7 @@ body {
     position: relative;
 }
 .img_container {
-   background-image: url('/assets/images/product1.png');
+   background-image: url('/assets/images/product.png');
    position: relative;
    height: 120vh;
    width: 50%;
