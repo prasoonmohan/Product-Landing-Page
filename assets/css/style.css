@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500&display=swap");
+
+:root {
+    --body-color: #06283d;
+    --sub-color: #d2c6a9;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    background-color: var(--body-color);
+    transition: all ease-in-out 200ms;
+    cursor: default;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* nav bar start*/
+.nav_bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4.2rem;
+    background-color: transparent;
+    padding-right: 50px;
+    font-size: 18.5px;
+}
+.nav_bar > a {
+    color: var(--sub-color);
+    text-decoration: none;
+    margin-right: 80px;
+    margin-top: 40px;
+    transition: all ease-in-out 200ms;
+}
+.nav_bar > a:hover{
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+.bx-search{
+    font-size: 25px;
+}
+.container{
+    position: relative;
+}
+.img_container {
+   background-image: url('/assets/images/product1.png');
+   position: relative;
+   height: 120vh;
+   width: 50%;
+   background-repeat: no-repeat;
+   background-size: 800px;
+   top: -230px;
+   left: -80px;
+}
+
+.brand_name{
+    font-family: 'Oswald', sans-serif;
+    margin-top: -740px;
+    margin-left: 580px;
+    font-size: 350px;
+    color: #2e3f6d39;
+}
+
+.product_details{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    top: 14rem;
+    right: 16rem;
+    color: var(--sub-color);
+}
+.product_details > h1{
+    font-size: 70px;
+    margin-bottom: 0;
+}
+.product_details > p{
+    font-size: 22px;
+    margin-left: 20px;
+    
+}
+button{
+    height: 40px;
+    width: 8rem;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--sub-color);
+    border: none;
+    font-size: 18px;
+    transition: all ease 600ms;
+    font-weight: 600;
+    margin-top: 8px;
+}
+button:hover{
+   background-color: transparent;
+   border: 1px solid var(--sub-color);
+   color: var(--sub-color);
+}
