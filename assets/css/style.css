@@ -1,31 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 :root {
-    --body-color: #06283d;
-    --sub-color: #d2c6a9;
+    --body-color: #021834;
+    --sub-color: #9f9f9fbf;
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
     margin: 0;
     background-color: var(--body-color);
     transition: all ease-in-out 200ms;
     cursor: default;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 /* nav bar start*/
 .nav_bar {
+    font-family: "Oswald", sans-serif;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 4.2rem;
     background-color: transparent;
     padding-right: 50px;
-    font-size: 18.5px;
+    font-size: 20px;
 }
 .nav_bar > a {
     color: var(--sub-color);
@@ -34,57 +33,57 @@ body {
     margin-top: 40px;
     transition: all ease-in-out 200ms;
 }
-.nav_bar > a:hover{
+.nav_bar > a:hover {
     transform: scale(1.1);
-    color: rgb(255, 255, 255);
+    color: #cccccc;
 }
-.bx-search{
+.bx-search {
     font-size: 25px;
 }
-.container{
+.container {
     position: relative;
 }
 .img_container {
-   background-image: url('/assets/images/product.png');
-   position: relative;
-   height: 120vh;
-   width: 50%;
-   background-repeat: no-repeat;
-   background-size: 800px;
-   top: -230px;
-   left: -80px;
+    background-image: url("https://www.sony-asia.com/image/10ba8c2580c43fb049249fe9fc300fb2?fmt=png-alpha&wid=660&hei=660");
+    position: relative;
+    height: 120vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    top: -230px;
+    left: -80px;
 }
 
-.brand_name{
-    font-family: 'Oswald', sans-serif;
-    margin-top: -740px;
+.brand_name {
+    font-family: "Anton", sans-serif;
+    margin-top: -730px;
     margin-left: 580px;
     font-size: 350px;
     color: #2e3f6d39;
+    
 }
 
-.product_details{
+.product_details {
     position: absolute;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Rubik', sans-serif;
     top: 14rem;
-    right: 16rem;
+    right: 15.3rem;
     color: var(--sub-color);
 }
-.product_details > h1{
+.product_details > h1 {
     font-size: 70px;
     margin-bottom: 0;
 }
-.product_details > p{
+.product_details > p {
     font-size: 22px;
     margin-left: 20px;
-    
 }
-button{
+button {
     height: 40px;
     width: 8rem;
     margin-left: 20px;
     cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     background-color: var(--sub-color);
     border: none;
     font-size: 18px;
@@ -92,8 +91,8 @@ button{
     font-weight: 600;
     margin-top: 8px;
 }
-button:hover{
-   background-color: transparent;
-   border: 1px solid var(--sub-color);
-   color: var(--sub-color);
+button:hover {
+    background-color: transparent;
+    border: 1px solid var(--sub-color);
+    color: var(--sub-color);
 }
