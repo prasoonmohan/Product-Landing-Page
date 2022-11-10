@@ -13,7 +13,7 @@ product landing page using html css and js
  - [Readme](https://readme.so/)
 
 
-## Snap 😎
+## Snap 😎...
 
 ![Preview](./assets/images/preview.png)
 
