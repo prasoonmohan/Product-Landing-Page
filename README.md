@@ -5,7 +5,7 @@ product landing page using html css and js
 
 ### [inspired](https://www.instagram.com/p/CjAiI-dDIsO/)
 
-## [Live ✔](https://prasoonmohan-product-landing.netlify.app/)
+## [Live Link](https://prasoonmohan-product-landing.netlify.app/)
 
 ## Helpers 😍
 
